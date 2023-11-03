@@ -27,7 +27,7 @@ public class Main {
 				
 				while((linea = br.readLine()) != null) {
 					String[] s = linea.split(",");
-					productos.add(new Producto(Integer.parseInt(s[0]),s[1],Double.parseDouble(s[3])));
+					productos.add(new Producto(Integer.parseInt(s[0]),s[1],Double.parseDouble(s[2])));
 				}
 
 				Scanner sc = new Scanner(System.in);
