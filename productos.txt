@@ -1,0 +1,4 @@
+1,chupachups,2.3
+2,migajas,3.2
+3,chocolate,5.0
+
