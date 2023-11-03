@@ -38,7 +38,9 @@ public class Main {
 
 					System.out.println("Productos:");
 
-					// Aqui se muestran los productos
+					for(int i = 0; i < productos.size(); i++) {
+						System.out.println("("+(i+1)+") "+productos.get(i).getNombre()+" - "+productos.get(i).getPrecio());
+					}
 
 					opcion = sc.nextInt();
 
